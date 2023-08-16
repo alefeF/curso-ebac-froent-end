@@ -1,2 +1,0 @@
-# curso-ebac-froent-end
-
