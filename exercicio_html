@@ -13,19 +13,21 @@
 		<input  type="text" placeholder="nome"/>
 		
 		<br>
-        <i><b><label for="email">digite seu email</label></b></i>
+                <i><b><label for="email">digite seu email</label></b></i>
 		<input  id="email" type="email" placeholder="email"/>
 
 		<br>
 		<i><b><label>digite a senha</label></b></i>
 		<input type="senha" placeholder="senha" >
 		
-		<br>
-		<button type="submit">cadastrar</button>
-
-		<br>
-
-        <button type="resert">limpar</button>
+		
 	</form>
+
+
+         <br>
+         <button type="submit">cadastrar</button>
+
+         <br>
+         <button type="resert">limpar</button>
 </body>
 </html>
