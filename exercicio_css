@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>exercio css</title>
+    <link rel="stylesheet" href="exercicio.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<h1>Portal de noticia</h1>
+			<nav >
+				<ul>
+					<li >
+						<a href="#entre">entreterimento</a>
+					</li>
+					<li>
+						<a href="#tec">tecnologia</a>
+					</li>
+					<li>
+						<a href="#sport">esporte</a>
+					</li>
+					<li>
+						<a href="#eco">economia</a>
+					</li>
+
+				</ul>
+			</nav>
+		</div>
+	</header>
+<main>
+	
+
+
+	<section id="sport" >
+		<div class="container">
+			<h2>esporte</h2>
+			<div class="articles">
+
+				<article>
+					<img src="futebol.jpg">
+					<br><time>13/07/2022 às 12:35</time>
+					<h3>Grande clássico na noite de hoje</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.</p>
+					<a href="#">leia mais</a>
+				</article>
+
+				<article>
+					<img src="futebol-americano.jpg">
+					<br><time> 13/07/2022 às 12:35</time>
+					<h3>Grande clássico na noite de hoje</h3>
+					
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.</p>
+
+					<a href="#">leia mais</a>
+				</article>
+
+				<article>
+					<img src="basquete.jpg">
+					<br><time>13/07/2022 às 12:35</time>
+					<h3>Notícia sobre a NBA	</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.</p>
+					<a href="#">leia mais</a>
+				</article>		
+
+				<article>
+					<img src="basquete.jpg">
+					<br><time>13/07/2022 às 12:35</time>
+					<h3>Notícia sobre a NBA	</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.</p>
+					<a href="#">leia mais</a>
+				</article>					
+			</div>
+			
+		</div>
+		
+
+
+
+
+
+	</section>
+
+	<section id="eco">
+		<nav class="container">
+			<h2>economia</h2>
+			<nav class="articles">
+				
+				<article>
+					<img src="dolares.jpg">
+					<br><time> 13/07/2022 às 12:35</time>
+					<h3>Dólar em alta de 0.50%</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.</p>
+					<a href="#">leia mais</a>
+
+					
+
+				</article>
+
+				<article>
+					<img src="euro.jpg">
+					<br><time>13/07/2022 às 12:35</time>
+					<h3>Euro em queda de 0.40%</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.</p>
+					<a href="#">leia mais</a>
+
+				</article>
+
+				<article>
+					<img src="petroleo.jpg">
+					<br><time>13/07/2022 às 12:35</time>
+					<h3>Alta no preço do barril do petróleo</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.</p>
+					<a href="#">leia mais</a>
+
+					
+				</article>
+			</nav>
+
+
+
+		</nav>
+		
+	</section>
+
+	<section id="entre" >
+		<div class="container">
+			<h2>entreterimento </h2>
+			<div class="articles">
+
+
+				<article>
+
+					<img src="cinemaar.jpg">
+					<br>
+						<time>01/09/2023 as 13:20</time>
+					</br>
+					<h3>Juntos pelo Cinema</h3>
+					<p>Uma campanha está sendo propagada nas redes sociais tendo como objetivo, fortalecer a reabertura das salas de cinemas em todo Brasil. Com a hashtag; #JuntosPeloCinemaA informação foi divulgada após o resultado da pesquisa realizada pelo Instituto de Pesquisa Boca a Boca, da Comscore, da FLIX Media, do Ingresso.com e também da Velox Tickets, serem anunciadas.</p>
+					<a href="#" >ler mais</a>
+			
+				
+			</article>
+
+			<article>
+				
+				<img src="teatro.png">
+				<br><time>01/09/2023 as 13:50</time></br>
+                
+                <h3>Semana de arte</h3>
+
+                <p>A semana começou com arte, cultura e educação ambiental com uma série de apresentações online do espetáculo teatral “Geringonça”, do grupo de teatro Artpalco. A teve início na segunda-feira, 23, e segue até a próxima sexta-feira, 27. De graça, online e para toda família, as lives são transmitidas sempre 9 e 14 horas, no canal do YouTube do Grupo Artpalco.venha!!</p>
+                <a href="#">ler mais</a>
+            </article>
+
+            <article>
+            	<img src="park.png">
+
+            	<br><time>01/09/2023 as 14:00 </time></br>
+
+            	<h3>Beach Park reúne diversão  </h3>
+            	<p>Dentre os inúmeros toboáguas do parque aquático, o grande hit da estação é o Tobomusik, inaugurado em dezembro com a presença do DJ e produtor musical Alok e o primeiro a unir música e efeitos visuais da América Latina</p>
+            	<a href="#">ler mais</a>
+            
+
+            </article>
+            </div>
+		</div>
+	</section>
+
+	<section id="tec">
+		<div class="container">
+            <h2>tecnologia</h2>
+            <div class="articles">
+            	
+            
+				<article>
+				<img src="tec.png">
+		    	<br><time>01/09/2023 as 14:05</time></br>
+				  <h3>o que é tecnologia</h3>
+		    	<p> termo “tecnologia” vem do grego tekhne que significa “técnica, arte, ofício”, juntamente com a palavra logos, também grega, que refere-se ao “conjunto dos saberes”. A tecnologia é um objeto de estudo constante da ciência e da engenharia que envolve vários instrumentos, técnicas e métodos que visam a resolução de situações problemáticas.</p>
+		    	<a href="#">ler mais</a>
+		        </article>
+
+		     	<article>
+		     	<img src="tecno.png">
+		     	<br><time>01/09/2023 as 14:14</time></br>
+		     	<h3>mundo com a tecnologia</h3>
+		     	
+		     	<p>Com a tecnologia, as informações estão ao nosso alcance com apenas alguns cliques. Você pode encontrar respostas para quase tudo no Google, e se comunicar com pessoas de todo o mundo por meio de aplicativos de mensagens e videochamadas. A tecnologia também tornou o trabalho mais eficiente e produtivo, permitindo a automação de tarefas e a criação de máquinas cada vez mais avançadas. </p>
+		     	<a href="#">ler mais</a>
+		     	</article>
+
+		     	<article>
+		     	<img src=tecnologia.png>
+		     	<br><time>01/09/2023 as 15:05</time></br>
+		     	<h3>Como a tecnologia está mudando o que é ser humano</h3>
+		     	<p>
+		     		presença da digitalização vem se tornando parte cada vez mais relevante no mercado. No entanto, enquanto as organizações trabalham para decifrar como usar as novas ferramentas para adequar suas culturas ao futuro, a relação entre tecnologia e ser humano tem transformado os próprios profissionais.
+		     		
+		     	</p>
+		     	<a href="#">ler mais</a>
+
+
+		</div>
+    </section>
+</main>
+
+</body>
+</html>
