@@ -1,0 +1,149 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+
+}
+
+
+}
+/* os 4 abaixos sao a base da pagina*/
+.container{
+	width: 2450px;
+	margin: 0 auto;
+}
+
+.articles{
+	display: flex;
+     justify-content: space-between;
+    flex-wrap: wrap;
+     
+}
+.articles img{
+	height:250px;
+}
+.articles article{
+		width: 30%
+
+		}
+
+/*ajusta o cabecalho*/
+header{
+	background-color: #2f3640; color: white;
+    ;
+    padding : 16px;
+    font-size: 20;
+
+}
+
+ header .container{
+ 	display: flex;
+ 	align-items: center;
+ 	justify-content: space-between;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-left:30px;
+	
+
+
+
+ }
+ header li {
+ 	display: inline;
+ }
+
+ header li a{
+ 	color: white;
+ 	text-decoration: none;
+ 	font-weight: bold;
+ 	font-size: 15px;
+	padding-left: 16px;
+	display: inline;
+}
+header li a:hover{
+	text-decoration: underline
+	
+}
+/* os 3 abaixos e pra ajustar o espacamento da pagina */
+section{
+	padding: 8px;
+}
+
+section h2{
+	padding: 8px;
+}
+
+section h3{
+	padding: 8px 1px;
+}
+
+ 
+/* os 3  abaixo e para ajusta os botoes*/
+.articles article a {
+	text-decoration: none;
+	padding: 8px;
+	 display: inline-block	 
+}
+
+.articles article a:hover{
+	text-decoration: underline;
+}
+
+.articles article a{
+	font-family: Arial,Helvetica,sans-serif
+	;
+	
+	color: white;
+	font-weight: bold;
+
+	}
+
+
+.articles article h3{
+	font-size: 25px;
+}
+
+h2{
+	font-size: 30px;
+}
+
+.articles article p{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+section h2, .articles article{
+	padding-bottom: 16px;
+
+}
+/* e a cor da pagina os 4 abaixo*/
+#tec{
+ 	background-color: #d3d3d3 ;
+ }
+
+ #entre{
+ 	background-color: #FFF5F5F5;
+ }
+
+#sport{
+	background-color:  #add8e6;
+}
+
+#eco{
+	background-color: #ff6961;
+}
+/*cor dos botoes */
+#sport .articles article a{
+	background-color: blue;
+}
+
+#eco .articles article a{
+	background-color:  #ffa500;
+}
+
+#entre .articles article a{
+	background-color:  #008000 ;
+}
+
+#tec .articles article a{
+	background-color: red;	
+}
+
